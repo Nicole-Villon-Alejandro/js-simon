@@ -26,7 +26,7 @@ for( let i = 0; numArray.length < 5; i++ ){
 
 
 for( let i = 0; i < numArray.length; i++ ){
-    numbersList.innerHTML = numArray[i]
+    numbersList.innerHTML += numArray[i]
 }    
    
 
